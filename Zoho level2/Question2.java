@@ -22,7 +22,7 @@ public class Question2 {
         k=sc.nextInt();
         for(int i=0;i<n-k+1;i++)
         {
-            for(int j=0;j<n-k+1;k++)
+            for(int j=0;j<n-k+1;j++)
             {
                 int sum=0;
                 for(int x=i;x<k+i;x++)
@@ -30,10 +30,9 @@ public class Question2 {
                     for(int y=j;y<k+j;y++)
                     {
                         sum=sum+arr[x][y];
-                        System.out.print(sum);
-                        System.out.print(" ");
                     }
                 }
+                System.out.print(sum+" ");
             }
         }
         sc.close();
