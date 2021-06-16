@@ -1,3 +1,7 @@
+//Given a square matrix,perform mirrored z-traversal of the matrix and display the elements//
+
+
+
 import java.util.*;
 public class Question3 {   
     public static void main(String args[])
