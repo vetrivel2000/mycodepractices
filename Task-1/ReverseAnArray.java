@@ -9,7 +9,7 @@
  * @author vetri
  */
 package revarray;
-public class reverseAnArray {
+public class ReverseAnArray {
     public void reverse(int array[],int size)
     {
         int array2[]=new int[size];
