@@ -9,7 +9,7 @@
  * @author vetri
  */
 package remove;
-public class removeAnElement {
+public class RemoveAnElement {
     public void removeElement(int array[],int size,int element)
     {
      int i;   
