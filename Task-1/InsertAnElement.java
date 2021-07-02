@@ -9,7 +9,7 @@
  * @author vetri
  */
 package insert;
-public class insertAnElement {
+public class InsertAnElement {
     public void addElement(int array[],int size,int element,int position)
     {
         size = size+1;
