@@ -9,7 +9,7 @@
  * @author vetri
  */
 package index;
-public class indexOfAnElement {
+public class IndexOfAnElement {
     public int findIndex(int array[],int size,int key){
         int i=0;
         while(i<size)
@@ -19,6 +19,6 @@ public class indexOfAnElement {
             else
                i++;
         }
-        return -1;
+        return 0;
     }
 }
