@@ -9,7 +9,7 @@
  * @author vetri
  */
 package target;
-public class targetValueSum {
+public class TargetValueSum {
     public void findElements(int array[],int size,int target)
     {
         System.out.println("The required elements are:");
