@@ -9,7 +9,7 @@
  * @author vetri
  */
 package common;
-public class findCommonElement {
+public class FindCommonElement {
     public void numericCommon(int array1[],int array2[],int size1,int size2)
     {
         System.out.println("The common elements in numeric array are:");
