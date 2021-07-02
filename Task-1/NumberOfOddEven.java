@@ -9,7 +9,7 @@
  * @author vetri
  */
 package oddeven;
-public class numberOfOddEven {
+public class NumberOfOddEven {
     public void countOddEven(int array[],int size)
     {
         int oddCount=0,evenCount=0;
