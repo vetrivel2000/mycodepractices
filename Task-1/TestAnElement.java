@@ -9,7 +9,7 @@
  * @author vetri
  */
 package test;
-public class testAnElement {
+public class TestAnElement {
     public void testElement(int array[],int size,int element)
     {
         int flag=0;
