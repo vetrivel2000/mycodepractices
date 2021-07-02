@@ -9,7 +9,7 @@
  * @author vetri
  */
 package sum;
-public class sumOfValues {
+public class SumOfValues {
     public int findSum(int array[],int size)
     {
         int sum=0;
