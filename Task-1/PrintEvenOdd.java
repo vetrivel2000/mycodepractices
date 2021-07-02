@@ -9,7 +9,7 @@
  * @author vetri
  */
 package evenodd;
-public class printEvenOdd {
+public class PrintEvenOdd {
     public void oddEven(int array[],int size)
     {
         int j=-1,temp;
