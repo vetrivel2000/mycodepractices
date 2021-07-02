@@ -9,7 +9,7 @@
  * @author vetri
  */
 package average;
-public class averageExceptMaxMin {
+public class AverageExceptMaxMin {
     public void findAverage(int array[],int size)
     {
         int max=0,min=array[1],sum=0,avg;
