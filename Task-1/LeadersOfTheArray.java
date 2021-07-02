@@ -9,7 +9,7 @@
  * @author vetri
  */
 package leaders;
-public class leadersOfTheArray {
+public class LeadersOfTheArray {
     public void findLeaders(int array[],int size)
     {
         for(int i=0;i<size;i++)
