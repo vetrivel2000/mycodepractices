@@ -9,21 +9,21 @@
  * @author vetri
  */
 package task;
-import index.indexOfAnElement;
-import sum.sumOfValues;
-import remove.removeAnElement;
-import insert.insertAnElement;
-import test.testAnElement;
-import maxmin.maxAndMinElement;
-import common.findCommonElement;
-import duplicateremoval.removeDuplicate;
-import oddeven.numberOfOddEven;
-import average.averageExceptMaxMin;
-import target.targetValueSum;
-import revarray.reverseAnArray;
-import evenodd.printEvenOdd;
-import sortarray.sortAnArray;
-import leaders.leadersOfTheArray;
+import index.IndexOfAnElement;
+import sum.SumOfValues;
+import remove.RemoveAnElement;
+import insert.InsertAnElement;
+import test.TestAnElement;
+import maxmin.MaxAndMinElement;
+import common.FindCommonElement;
+import duplicateremoval.RemoveDuplicate;
+import oddeven.NumberOfOddEven;
+import average.AverageExceptMaxMin;
+import target.TargetValueSum;
+import revarray.ReverseAnArray;
+import evenodd.PrintEvenOdd;
+import sortarray.SortAnArray;
+import leaders.LeadersOfTheArray;
 import java.util.*;
 public class Task1Runner {
     public static void main(String args[])
@@ -48,7 +48,7 @@ public class Task1Runner {
                      }
                      System.out.println("Enter the element you need to find the index");
                      int element = sc.nextInt();
-                     indexOfAnElement object1 = new indexOfAnElement();
+                     IndexOfAnElement object1 = new IndexOfAnElement();
                      int index=object1.findIndex(array1,arrayLength1,element);
                      System.out.println("The index of the element "+element+" is:"+index);
                      break;
@@ -63,7 +63,7 @@ public class Task1Runner {
                      {
                          array2[i]=sc.nextInt();
                      }
-                     sumOfValues object2 = new sumOfValues();
+                     SumOfValues object2 = new SumOfValues();
                      int sum=object2.findSum(array2,arrayLength2);
                      System.out.println("The sum of all values in this numeric array is:"+sum);
                      break;
@@ -80,7 +80,7 @@ public class Task1Runner {
                      }
                      System.out.println("Enter the element you want to remove:");
                      int elementToBeRemove = sc.nextInt();
-                     removeAnElement object3 = new removeAnElement();
+                     RemoveAnElement object3 = new RemoveAnElement();
                      object3.removeElement(array3,arrayLength3,elementToBeRemove);
                      break;
                  }
@@ -98,7 +98,7 @@ public class Task1Runner {
                      int elementToBeAdd = sc.nextInt();
                      System.out.println("Enter the specific position you want to add:");
                      int position = sc.nextInt();
-                     insertAnElement object4 = new insertAnElement();
+                     InsertAnElement object4 = new InsertAnElement();
                      object4.addElement(array4,arrayLength4,elementToBeAdd,position);
                      break;
                  }
@@ -114,7 +114,7 @@ public class Task1Runner {
                      }
                      System.out.println("Enter the element you want to check:");
                      int elementToCheck = sc.nextInt();
-                     testAnElement object5 = new testAnElement();
+                     TestAnElement object5 = new TestAnElement();
                      object5.testElement(array5,arrayLength5,elementToCheck);
                      break;
                  }
@@ -128,7 +128,7 @@ public class Task1Runner {
                      {
                          array6[i]=sc.nextInt();
                      }
-                     maxAndMinElement object6 = new maxAndMinElement();
+                     MaxAndMinElement object6 = new MaxAndMinElement();
                      int max=object6.findMax(array6,arrayLength6);
                      int min=object6.findMin(array6,arrayLength6);
                      System.out.println("The maximum of all values in this numeric array is:"+max);
@@ -169,7 +169,7 @@ public class Task1Runner {
                      {
                          secondArray1[i]=sc.next();
                      }
-                     findCommonElement object7 = new findCommonElement();
+                     FindCommonElement object7 = new FindCommonElement();
                      object7.numericCommon(firstArray,secondArray,firstArrayLength,secondArrayLength);
                      object7.wordCommon(firstArray1,secondArray1,firstArrayLength1,secondArrayLength1);
                      break;
@@ -184,7 +184,7 @@ public class Task1Runner {
                      {
                          array8[i]=sc.nextInt();
                      }
-                     removeDuplicate object8 = new removeDuplicate();
+                     RemoveDuplicate object8 = new RemoveDuplicate();
                      System.out.println("The array after removing duplicate is:");
                      object8.duplicate(array8,arrayLength8);
                      System.out.println();
@@ -200,7 +200,7 @@ public class Task1Runner {
                      {
                          array9[i]=sc.nextInt();
                      }
-                     numberOfOddEven object9 = new numberOfOddEven();
+                     NumberOfOddEven object9 = new NumberOfOddEven();
                      object9.countOddEven(array9,arrayLength9);
                      System.out.println();
                      break;
@@ -215,7 +215,7 @@ public class Task1Runner {
                      {
                          array10[i]=sc.nextInt();
                      }
-                     averageExceptMaxMin object10 = new averageExceptMaxMin();
+                     AverageExceptMaxMin object10 = new AverageExceptMaxMin();
                      object10.findAverage(array10,arrayLength10);
                      System.out.println();
                      break;
@@ -232,7 +232,7 @@ public class Task1Runner {
                      }
                      System.out.println("Enter target value:");
                      int targetValue=sc.nextInt();
-                     targetValueSum object11 = new targetValueSum();
+                     TargetValueSum object11 = new TargetValueSum();
                      object11.findElements(array11, arrayLength11, targetValue);
                      break;
                  }
@@ -246,7 +246,7 @@ public class Task1Runner {
                      {
                          array12[i]=sc.nextInt();
                      }
-                     reverseAnArray object12 = new reverseAnArray();
+                     ReverseAnArray object12 = new ReverseAnArray();
                      System.out.println("The reversed array is:");
                      object12.reverse(array12,arrayLength12);
                      System.out.println();
@@ -262,7 +262,7 @@ public class Task1Runner {
                      {
                          array13[i]=sc.nextInt();
                      }
-                     printEvenOdd object13 = new printEvenOdd();
+                     PrintEvenOdd object13 = new PrintEvenOdd();
                      object13.oddEven(array13,arrayLength13);
                      System.out.println();
                      break;   
@@ -277,7 +277,7 @@ public class Task1Runner {
                      {
                          array14[i]=sc.nextInt();
                      }
-                     sortAnArray object14 = new sortAnArray();
+                     SortAnArray object14 = new SortAnArray();
                      System.out.println("The sorted array is:");
                      object14.sort(array14,arrayLength14);
                      System.out.println();
@@ -293,7 +293,7 @@ public class Task1Runner {
                      {
                          array15[i]=sc.nextInt();
                      }
-                     leadersOfTheArray object15 = new leadersOfTheArray();
+                     LeadersOfTheArray object15 = new LeadersOfTheArray();
                      System.out.println("The leaders of the array are:");
                      object15.findLeaders(array15,arrayLength15);
                      System.out.println();
