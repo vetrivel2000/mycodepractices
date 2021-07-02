@@ -10,7 +10,7 @@
  */
 package sortarray;
 import java.util.*;
-public class sortAnArray {
+public class SortAnArray {
     public void sort(int array[],int size)
     {
         Arrays.sort(array);
