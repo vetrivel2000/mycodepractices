@@ -9,7 +9,7 @@
  * @author vetri
  */
 package duplicateremoval;
-public class removeDuplicate {
+public class RemoveDuplicate {
     public void duplicate(int array[],int size)
     {
         int[] temp = new int[size];
