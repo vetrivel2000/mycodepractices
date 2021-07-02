@@ -9,7 +9,7 @@
  * @author vetri
  */
 package maxmin;
-public class maxAndMinElement {
+public class MaxAndMinElement {
     public int findMax(int array[],int size)
     {
         int max = 0;
