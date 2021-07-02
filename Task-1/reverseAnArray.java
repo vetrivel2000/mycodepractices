@@ -12,9 +12,16 @@ package revarray;
 public class reverseAnArray {
     public void reverse(int array[],int size)
     {
-        for(int i=size-1;i>=0;i--)
+        int array2[]=new int[size];
+        int index=size-1;
+        for(int i=0;i<size;i++)
         {
-            System.out.print(array[i]+" ");
+            array2[index]=array[i];
+            index--;
+        }
+        for(int i=0;i<size;i++)
+        {
+            System.out.print(array2[i]+" ");
         }
     }
 }
