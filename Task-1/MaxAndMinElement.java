@@ -9,25 +9,18 @@
  * @author vetri
  */
 package maxmin;
+import java.util.*;
 public class MaxAndMinElement {
     public int findMax(int array[],int size)
     {
-        int max = 0;
-        for(int i=0;i<size;i++)
-        {
-            if(max<array[i])
-                max=array[i];
-        }
+        Arrays.sort(array);
+        int max = array[size-1];
         return max;
     }
     public int findMin(int array[],int size)
     {
+        Arrays.sort(array);
         int min=array[0];
-        for(int i=0;i<size;i++)
-        {
-            if(min>array[i])
-                min=array[i];
-        }
         return min;
     }
 }
