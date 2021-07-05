@@ -28,13 +28,13 @@ import java.util.*;
 public class Task1Runner {
     public static void main(String args[])
     {
-         int Question;
+         int question;
          Scanner sc = new Scanner(System.in);
          do
          {
              System.out.println("Enter the Question.no:");
-             Question = sc.nextInt();
-             switch(Question)
+             question = sc.nextInt();
+             switch(question)
              {
                  case 1:
                  {
@@ -302,6 +302,6 @@ public class Task1Runner {
                  default:
                      System.out.println("No such program!!!!");
              }
-         }while(Question<16);
+         }while(question<16);
     }
 }
