@@ -18,7 +18,7 @@ g           s
 
 
 import java.util.*;
-public class XPattern {
+public class Question15 {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
