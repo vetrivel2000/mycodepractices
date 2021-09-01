@@ -91,7 +91,7 @@ public class Question8{
                 for(int k=0;k<c3;k++)
                 {
                     if(A[i].equals(B[j])&&B[j].equals(C[k])&&C[k].equals(A[i]))
-                        System.out.print(A[i]+" ");
+                        System.out.print(A[i].trim()+" ");
                }
             }
         }
